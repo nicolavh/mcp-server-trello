@@ -212,10 +212,3 @@ Entrada:
 
 - `cardId` (requerido)
 - `listId?`, `boardId?`, `pos?` (proveer al menos uno)
-
-## Troubleshooting
-
-- **Falla al instalar desde GitHub**: asegúrate de que el repo sea público y que el `default branch`/ref exista (`github:nicolavh/mcp_server-trello#branch_o_tag`).
-- **Errores 401/unauthorized**: revisa `TRELLO_KEY` y `TRELLO_TOKEN`. Un token incorrecto suele responder 401.
-- **“Missing boardId / listId”**: pasa el parámetro al tool o define `TRELLO_DEFAULT_BOARD_ID` / `TRELLO_DEFAULT_LIST_ID`.
-
