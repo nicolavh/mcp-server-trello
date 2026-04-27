@@ -50,6 +50,8 @@ Notas:
 - Si tu default branch no es `main`, puedes fijar un ref: `github:nicolavh/mcp_server-trello#branch_o_tag`.
 - `-y` evita prompts interactivos.s
 
+- Para crear API KEY acceder a: https://trello.com/power-ups/admin/
+
 ## sVariables de entorno
 
 Obligatorias:
